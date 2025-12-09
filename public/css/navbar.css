@@ -1,7 +1,7 @@
 /* NAVBAR BASE */
 .navbar {
     position: fixed;
-    top: 0;
+    top: 20px;
     width: 100%;
     background: #ffffffea;
     backdrop-filter: blur(10px);
@@ -13,7 +13,6 @@
   .nav-container {
     max-width: 1200px;
     margin: auto;
-    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,6 +28,11 @@
   
   .logo span {
     color: #0070f3;
+  }
+
+  .logo{
+    height: 70px;
+    width: auto;
   }
   
   /* MENU DESKTOP */

@@ -31,7 +31,10 @@ export default function Navbar() {
 
         {/* Logo */}
         <div className="logo">
-          <Link href="/">Saif<span>Dev</span></Link>
+          <Link href="/">
+		  	<img src="/img/logo.png" className="logo" alt="MD SAIF UDDIN" />
+			{/* Saif<span>Dev</span> */}
+		  </Link>
         </div>
 
         {/* Links */}
