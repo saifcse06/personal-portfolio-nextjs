@@ -1,10 +1,8 @@
-// import Link from "next/link";
-
 export default function Head(){
     return (
         <head>
             <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
-            {/* <title>Satner Portfolio</title> */}
+            <title>MD SAIF UDDIN</title>
             <link rel="stylesheet" href="/assets/css/bootstrap.css" />
             <link rel="stylesheet" href="/assets/vendors/linericon/style.css" />
             <link rel="stylesheet" href="/assets/css/font-awesome.min.css" />
