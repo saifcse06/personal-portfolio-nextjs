@@ -60,7 +60,6 @@
     cursor: pointer;
   }
   
-  /* HERO SECTION */
   .hero {
     height: 100vh;
     background: linear-gradient(to right, #f7f7ff, #fff);
@@ -73,7 +72,17 @@
     width: 90%;
     margin: auto;
   }
-  
+
+  .hero-image {
+    max-width: 320px;
+    border-radius: 20px;
+  }
+
+  .tech-stack {
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+  }
+
   .hero h1 {
     font-size: 3rem;
   }
@@ -99,11 +108,6 @@
     margin-right: 10px;
     text-decoration: none;
     font-weight: 500;
-  }
-  
-  .btn {
-    background: #0070f3;
-    color: #fff;
   }
   
   .btn-outline {

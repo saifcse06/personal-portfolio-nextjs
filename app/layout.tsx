@@ -6,6 +6,7 @@ import "../public/css/style.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TopBar from "./components/TopBar";
+import Scripts from './components/Scripts';
 
 export const metadata = {
   title: "Saif | Software Engineer Portfolio",
@@ -20,10 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Navbar />
         <main>{children}</main>
         <Footer />
-
-        {/* External JS */}
-        <script src="/js/main.js" defer></script>
-        <script src="/js/navbar.js" defer></script>
+        <Scripts />
       </body>
     </html>
   );
