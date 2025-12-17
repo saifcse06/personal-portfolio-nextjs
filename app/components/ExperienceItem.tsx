@@ -28,7 +28,7 @@ export default function ExperienceItem({ data }) {
           <div>
             <h5 className="fw-bold mb-0">{data.role}</h5>
             <span className="text-primary fw-semibold">
-              {data.company}
+             <a href={data.web_url} className="text-decoration-none" target="_blank">{data.company}</a>
             </span>
           </div>
         </div>

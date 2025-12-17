@@ -15,7 +15,7 @@ export default function Navbar() {
 		function changeActiveMenu() {
 			sections.forEach((section) => {
 				const top = window.scrollY;
-				if (top >= (section.offsetTop - 300)) {
+				if (top >= (section.offsetTop - 100)) {
 					setActive(section.getAttribute("id") || "");
 				}
 			});
