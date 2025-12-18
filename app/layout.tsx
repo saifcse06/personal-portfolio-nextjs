@@ -1,4 +1,3 @@
-// import "./globals.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
@@ -9,7 +8,7 @@ import TopBar from "./components/TopBar";
 import Scripts from './components/Scripts';
 
 export const metadata = {
-  title: "Saif | Software Engineer Portfolio",
+  title: "Saif Uddin | Portfolio",
   description: "Professional portfolio of Saif, Full Stack Software Engineer",
 };
 
