@@ -17,7 +17,7 @@ const experienceData = [
       tech: [
         "Laravel",
         "Python",
-        "Node.js",
+        "NodeJs",
         "WordPress",
         "MySQL",
         "MongoDB",
@@ -49,6 +49,7 @@ const experienceData = [
         tech: [
           "Laravel",
           "Python",
+          "JavaScript",
           "VueJs",
           "MySQL",
           "Redis",

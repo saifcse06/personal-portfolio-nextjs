@@ -32,7 +32,7 @@ export default function Hero() {
             View My Work
           </a>
           <a
-            href="/Saif-CV.pdf"
+            href="/docs/cv/MD-SAIF-UDDIN-Resume-2025.pdf"
             className="btn btn-outline-dark btn-lg px-4"
             download
           >
