@@ -1,0 +1,138 @@
+/* Education Timeline */
+.edu-item {
+    position: relative;
+    gap: 20px;
+  }
+  
+  .edu-icon {
+    min-width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #0d6efd, #6f42c1);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 10px 25px rgba(13, 110, 253, 0.3);
+  }
+  
+  .edu-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 20px 24px;
+    border: 1px solid #eaeaea;
+    width: 100%;
+    transition: all 0.35s ease;
+  }
+  
+  .edu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
+  }
+  
+  .edu-date {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-top: 4px;
+  }
+  
+  /* Scroll Animation */
+  .animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s ease forwards;
+  }
+  
+  .animate-on-scroll:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .animate-on-scroll:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .training-card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .training-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.08);
+  }
+  
+  .section-title i {
+    vertical-align: middle;
+  }
+  
+  .contact-box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 16px 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-box i {
+    font-size: 1.5rem;
+    color: #0d6efd;
+  }
+  
+  .contact-box h6 {
+    margin: 0;
+    font-weight: 600;
+  }
+  
+  .contact-box a,
+  .contact-box span {
+    color: #adb5bd;
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  
+  .contact-box:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+  }
+  
+  .contact-gradient {
+    background: linear-gradient(
+      135deg,
+      #f8f9fa 0%,
+      #ffffff 40%,
+      #f1f3f5 100%
+    );
+    border-top: 1px solid #e9ecef;
+  }
+  
+  .contact-card {
+    background: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+    padding: 28px 20px;
+    transition: all 0.35s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  }
+  
+  .contact-icon {
+    font-size: 32px;
+    color: #000;
+  }
+  
+  .contact-icon.whatsapp {
+    color: #25d366;
+  }
