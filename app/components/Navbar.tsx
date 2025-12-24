@@ -52,7 +52,7 @@ export default function Navbar() {
 				{/* Menu */}
 				<div className="collapse navbar-collapse" id="mainNavbar">
 					<ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-						{["about", "experience", "skills", "projects", "education", "tranning", "certification", "contact"].map((item) => (
+						{["about", "experience", "skills", "projects", "education", "certification", "contact"].map((item) => (
 							<li className="nav-item" key={item}>
 								<Link
 									href={`#${item}`}

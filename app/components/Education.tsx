@@ -114,13 +114,120 @@ export default function Education() {
                                     </div>
 
                                     <p className="mt-3 mb-0 text-secondary">
-                                        <strong>Research Project:</strong> Online Billing Solution
+                                        <strong>Research Project:</strong> Online School Management System
                                     </p>
                                 </div>
 
                             </div>
                         </div>
 
+                        <div className="edu-item d-flex mb-4 animate-on-scroll">
+
+                            {/* Icon */}
+                            <div className="edu-icon me-3">
+                                <i className="bi bi-mortarboard-fill"></i>
+                            </div>
+
+                            {/* Card */}
+                            <div className="edu-card p-4 rounded shadow-sm">
+
+                                <h5 className="fw-semibold mb-1">
+                                    Higher Secondary Certificate (HSC)
+                                </h5>
+
+                                <p className="text-muted mb-1">
+                                   Chowmuhani Government Saleh Ahmed College • Noakhali, Bangladesh
+                                </p>
+
+                                <div className="d-flex align-items-center gap-3 mb-2">
+                                    <span className="edu-date text-muted">
+                                        <i className="bi bi-calendar3 me-1"></i> 2008 – 2010
+                                    </span>
+
+                                    {/* Highlighted Result */}
+                                    <span className="badge bg-success-subtle text-success fw-semibold px-3 py-1">
+                                        CGPA: 4.10 / 5.00
+                                    </span>
+                                </div>
+
+                                {/* Key Topics */}
+                                <div className="mt-3">
+                                    <h6 className="fw-semibold mb-2 text-dark">
+                                        Key Focus Areas
+                                    </h6>
+
+                                    <div className="d-flex flex-wrap gap-2">
+                                        <span className="badge bg-light text-secondary">Physics</span>
+                                        <span className="badge bg-light text-secondary">Chemistry</span>
+                                        <span className="badge bg-light text-secondary">Biology</span>
+                                        <span className="badge bg-light text-secondary">Higher Mathematics</span>
+                                        <span className="badge bg-light text-secondary">Data Structures</span>
+                                        <span className="badge bg-light text-secondary">ICT (Information & Communication Technology)</span>
+                                        <span className="badge bg-light text-secondary">English</span>
+                                        <span className="badge bg-light text-secondary">Bangla</span>
+                                    </div>
+
+                                    <p className="mt-3 mb-0 text-secondary">
+                                        <strong>Section:</strong> Science
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div className="edu-item d-flex mb-4 animate-on-scroll">
+
+                            {/* Icon */}
+                            <div className="edu-icon me-3">
+                                <i className="bi bi-mortarboard-fill"></i>
+                            </div>
+
+                            {/* Card */}
+                            <div className="edu-card p-4 rounded shadow-sm">
+
+                                <h5 className="fw-semibold mb-1">
+                                    Secondary School Certificate (SSC)
+                                </h5>
+
+                                <p className="text-muted mb-1">
+                                   Choumuhoni Madan Mohon High School • Noakhali, Bangladesh
+                                </p>
+
+                                <div className="d-flex align-items-center gap-3 mb-2">
+                                    <span className="edu-date text-muted">
+                                        <i className="bi bi-calendar3 me-1"></i> 2006 – 2008
+                                    </span>
+
+                                    {/* Highlighted Result */}
+                                    <span className="badge bg-success-subtle text-success fw-semibold px-3 py-1">
+                                        CGPA: 3.69 / 5.00
+                                    </span>
+                                </div>
+
+                                {/* Key Topics */}
+                                <div className="mt-3">
+                                    <h6 className="fw-semibold mb-2 text-dark">
+                                        Key Focus Areas
+                                    </h6>
+
+                                    <div className="d-flex flex-wrap gap-2">
+                                        <span className="badge bg-light text-secondary">Physics</span>
+                                        <span className="badge bg-light text-secondary">Chemistry</span>
+                                        <span className="badge bg-light text-secondary">Biology</span>
+                                        <span className="badge bg-light text-secondary">Higher Mathematics</span>
+                                        <span className="badge bg-light text-secondary">Data Structures</span>
+                                        <span className="badge bg-light text-secondary">ICT (Information & Communication Technology)</span>
+                                        <span className="badge bg-light text-secondary">English</span>
+                                        <span className="badge bg-light text-secondary">Bangla</span>
+                                    </div>
+
+                                    <p className="mt-3 mb-0 text-secondary">
+                                        <strong>Section:</strong> Science
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

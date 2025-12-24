@@ -43,7 +43,7 @@ export default function SkillsSection() {
 
         <div className="text-center mb-5">
           <h2 className="fw-bold">Skills</h2>
-          <p className="text-muted mx-auto" style={{ maxWidth: "720px" }}>
+          <p className="text-muted mx-auto">
             I build scalable, cloud-native applications with a strong focus on
             performance, reliability, and clean architecture.
           </p>
@@ -58,9 +58,14 @@ export default function SkillsSection() {
             skills={[
               { name: "HTML / CSS", level: 95 },
               { name: "JavaScript", level: 90 },
-              { name: "React", level: 90 },
-              { name: "Next.js", level: 85 },
-              { name: "Bootstrap", level: 90 }
+              { name: "jQuery", level: 90 },
+              { name: "Bootstrap", level: 90 },
+              { name: "TypeScript", level: 80},
+              { name: "VueJs", level: 60 },
+              { name: "ReactJs", level: 60 },
+              { name: "AngularJs", level: 50},
+              { name: "NextJs", level: 50 },
+              { name: "Webpack", level: 50 },
             ]}
           />
 
@@ -69,11 +74,21 @@ export default function SkillsSection() {
             icon="bi-server"
             title="Backend"
             skills={[
-              { name: "Python", level: 90 },
-              { name: "Java", level: 85 },
-              { name: "PHP (Laravel)", level: 90 },
-              { name: "Node.js", level: 80 },
-              { name: "REST APIs", level: 95 }
+              { name: "PHP (Laravel, CodeIgniter)", level: 95 },
+              { name: "Python (Flask, FastAPI, Django)", level: 70 },
+              { name: "NodeJs (ExpressJs, NestJS)", level: 60 },
+              { name: "Java (Spring Boot)", level: 60 },
+            ]}
+          />
+
+          {/* Backend */}
+          <SkillCard
+            icon="bi-c-square-fill"
+            title="CMS"
+            skills={[
+              { name: "WordPress", level: 70 },
+              { name: "Shopify", level: 40 },
+              { name: "Magento", level: 20 },
             ]}
           />
 
@@ -85,7 +100,11 @@ export default function SkillsSection() {
               { name: "MySQL", level: 90 },
               { name: "MongoDB", level: 85 },
               { name: "Redis", level: 85 },
-              { name: "Elasticsearch", level: 80 }
+              { name: "Elasticsearch", level: 80 },
+              { name: "PostgreSQL", level: 60},
+              { name: "SQLite", level: 50},
+              { name: "Microsoft SQL Server", level: 40},
+              { name: "Vector Database (Qdrant)", level: 40},
             ]}
           />
 
@@ -94,11 +113,11 @@ export default function SkillsSection() {
             icon="bi-cloud"
             title="Cloud & DevOps"
             skills={[
-              { name: "AWS", level: 85 },
-              { name: "Google Cloud", level: 80 },
-              { name: "Docker", level: 80 },
-              { name: "CI/CD", level: 85 },
-              { name: "Linux", level: 90 }
+              { name: "Linux", level: 60 },
+              { name: "AWS", level: 50 },
+              { name: "Google Cloud", level: 40 },
+              { name: "Docker", level: 40 },
+              { name: "CI/CD", level: 40 },
             ]}
           />
 
@@ -107,11 +126,15 @@ export default function SkillsSection() {
             icon="bi-tools"
             title="Tools & Practices"
             skills={[
-              { name: "Git & GitHub", level: 95 },
+              { name: "Git & GitHub/GitLab/Bitbucket", level: 95 },
               { name: "System Design", level: 90 },
-              { name: "Clean Architecture", level: 90 },
+              { name: "Clean Architecture", level: 90 }, 
+              { name: "Mentoring & Code Review", level: 90 },
+              { name: "API Testing & Debugging", level: 90},
               { name: "Agile / Scrum", level: 85 },
-              { name: "Mentoring & Code Review", level: 90 }
+              { name: "Jira, Slack, Trello", level: 85 },
+              { name: "IDEs (VS Code, IntelliJ IDEA, Sublime Text)", level: 85 },
+              { name: "Documentation", level: 80}
             ]}
           />
         </div>
