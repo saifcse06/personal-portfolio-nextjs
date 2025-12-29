@@ -34,6 +34,10 @@ export default function Hero() {
             "Chatbot",
             "Healthcare",
             "Logistics",
+            "Virtual Recharge (VR)",
+            "SMS & Email Service",
+            "Billing Solutions",
+            "GPS Tracking"
           ].map((domain) => (
             <span
               key={domain}
@@ -77,9 +81,9 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="d-flex flex-wrap gap-3 mt-4">
-          <a href="#projects" className="btn btn-primary btn-lg px-4">
+          {/* <a href="#projects" className="btn btn-primary btn-lg px-4">
             View Projects
-          </a>
+          </a> */}
           <a
             href="/docs/cv/MD-SAIF-UDDIN-Resume-2025.pdf"
             className="btn btn-outline-dark btn-lg px-4"

@@ -47,15 +47,16 @@ export default function Education() {
                                     </h6>
 
                                     <div className="d-flex flex-wrap gap-2">
+                                        <span className="badge bg-light text-secondary">System Analysis & Desing</span>
                                         <span className="badge bg-light text-secondary">Software Engineering</span>
-                                        <span className="badge bg-light text-secondary">HCI</span>
+                                        <span className="badge bg-light text-secondary">Human Computer Interaction</span>
                                         <span className="badge bg-light text-secondary">Advanced DBMS</span>
                                         <span className="badge bg-light text-secondary">Data Mining</span>
                                         <span className="badge bg-light text-secondary">Networking Management</span>
                                         <span className="badge bg-light text-secondary">Mobile App Development</span>
                                         <span className="badge bg-light text-secondary">Neural Networks</span>
-                                        <span className="badge bg-light text-secondary">Wireless Communication</span>
-                                        <span className="badge bg-light text-secondary">Research Project</span>
+                                        <span className="badge bg-light text-secondary">Cloud Computing</span>
+                                        <span className="badge bg-light text-secondary">Mobile & Wireless Communication</span>
                                     </div>
 
                                     <p className="mt-3 mb-0 text-secondary">
@@ -109,8 +110,13 @@ export default function Education() {
                                         <span className="badge bg-light text-secondary">Data Structures</span>
                                         <span className="badge bg-light text-secondary">Object Oriented Programming</span>
                                         <span className="badge bg-light text-secondary">Algorithm Design and Analysis</span>
-                                        <span className="badge bg-light text-secondary">Wireless Communication</span>
-                                        <span className="badge bg-light text-secondary">Research Project</span>
+                                        <span className="badge bg-light text-secondary">Data & Telecommunication</span>
+                                        <span className="badge bg-light text-secondary">Database Manasement Systems</span>
+                                        <span className="badge bg-light text-secondary">Comouter Networks</span>
+                                        <span className="badge bg-light text-secondary">Software Engineering</span>
+                                        <span className="badge bg-light text-secondary">E-Commerce and Web Engineering</span>
+                                        <span className="badge bg-light text-secondary">Artificial Intelligence & Neural Networks</span>
+                                        <span className="badge bg-light text-secondary">Parallel and Distributed Processing</span>
                                     </div>
 
                                     <p className="mt-3 mb-0 text-secondary">
@@ -160,15 +166,13 @@ export default function Education() {
                                         <span className="badge bg-light text-secondary">Physics</span>
                                         <span className="badge bg-light text-secondary">Chemistry</span>
                                         <span className="badge bg-light text-secondary">Biology</span>
-                                        <span className="badge bg-light text-secondary">Higher Mathematics</span>
-                                        <span className="badge bg-light text-secondary">Data Structures</span>
-                                        <span className="badge bg-light text-secondary">ICT (Information & Communication Technology)</span>
+                                        <span className="badge bg-light text-secondary">Mathematics</span>
                                         <span className="badge bg-light text-secondary">English</span>
                                         <span className="badge bg-light text-secondary">Bangla</span>
                                     </div>
 
                                     <p className="mt-3 mb-0 text-secondary">
-                                        <strong>Section:</strong> Science
+                                        <strong>Group:</strong> Science
                                     </p>
                                 </div>
 
@@ -214,15 +218,16 @@ export default function Education() {
                                         <span className="badge bg-light text-secondary">Physics</span>
                                         <span className="badge bg-light text-secondary">Chemistry</span>
                                         <span className="badge bg-light text-secondary">Biology</span>
-                                        <span className="badge bg-light text-secondary">Higher Mathematics</span>
-                                        <span className="badge bg-light text-secondary">Data Structures</span>
-                                        <span className="badge bg-light text-secondary">ICT (Information & Communication Technology)</span>
+                                        <span className="badge bg-light text-secondary">Mathematics</span>
+                                        <span className="badge bg-light text-secondary">Social Science</span>
+                                        <span className="badge bg-light text-secondary">Computer Studies</span>
                                         <span className="badge bg-light text-secondary">English</span>
                                         <span className="badge bg-light text-secondary">Bangla</span>
+                                        <span className="badge bg-light text-secondary">Religion (Islam)</span>
                                     </div>
 
                                     <p className="mt-3 mb-0 text-secondary">
-                                        <strong>Section:</strong> Science
+                                        <strong>Group:</strong> Science
                                     </p>
                                 </div>
 
