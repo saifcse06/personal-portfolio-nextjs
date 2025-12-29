@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-export default function ExperienceItem({ data }) {
+export default function ExperienceItem({ data }: { data: any }) {
   return (
     <motion.div
       className="timeline-item mb-5"
@@ -44,14 +44,14 @@ export default function ExperienceItem({ data }) {
         {/* ACHIEVEMENTS */}
         <h6 className="fw-semibold">Key Achievements</h6>
         <ul className="mb-3">
-          {data.achievements?.map((item, i) => (
+          {data.achievements?.map((item:any, i:any) => (
             <li key={i}>{item}</li>
           ))}
         </ul>
 
         {/* TECH STACK */}
         <div className="d-flex flex-wrap gap-2">
-          {data.tech.map((tech, i) => (
+          {data.tech.map((tech:any, i:any) => (
             <span
               key={i}
               className="badge bg-light text-dark border"

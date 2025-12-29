@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 
-const SkillCard = ({ icon, title, skills }) => (
+const SkillCard = ({ icon, title, skills }: any) => (
   <motion.div
     className="col-md-6 col-lg-4"
     initial={{ opacity: 0, y: 30 }}
@@ -17,7 +17,7 @@ const SkillCard = ({ icon, title, skills }) => (
         <h5 className="fw-semibold mb-0">{title}</h5>
       </div>
 
-      {skills.map((skill, i) => (
+      {skills.map((skill:any, i:any) => (
         <div key={i} className="mb-3">
           <div className="d-flex justify-content-between small">
             <span>{skill.name}</span>
